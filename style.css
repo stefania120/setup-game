@@ -36,6 +36,10 @@ h1 {
 
     height: 150px;
     width: 150px;
+    font-size: 6rem;
+    display: flex;
+    align-items: center;
+    justify-self: center;
 
 }
 
@@ -64,6 +68,7 @@ h1 {
 
     display: block;
     text-align: center;
+    pointer-events: none;
 
 }
 
@@ -80,4 +85,11 @@ h1 {
 
     font-size: 2.5rem;
 
+}
+
+.messaggio {
+
+    font-size: 4rem;
+    text-align: center;
+    height: 50px;
 }
